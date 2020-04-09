@@ -10,7 +10,7 @@ class State:
         self._5 = data[0]
         self._7 = data[1]
         self._12 = data[2]
-        self.metrics = abs(0 - self._5) / 5 + abs(6 - self._7) / 7 + abs(6 - self._12) / 12
+        self.metrics = abs(0 - self._5) / 5 + abs(GOAL_QUANTITY - self._7) / 7 + abs(GOAL_QUANTITY - self._12) / 12
 
     def __repr__(self):
         return "State({}, {}, {})\n".format(str(self._5), str(self._7), str(self._12))

@@ -26,7 +26,7 @@ return sBest
 
 def TABU(initial_state: State, show_interim_results=True):
     if show_interim_results:
-        print('The goal is to have to jars with 6 liters',
+        print('The goal is to have two jars with 6 liters',
               'we use manhattan distance metrics and try to minimize it')
         print('Because we don\'t want to stay in local minimum, we always look for better candidates.')
         print('\nStart:\n\n')
